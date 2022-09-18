@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/android_sma"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/android_sma"
+    android:clipToOutline="true">
+
+
+        <Button
+            android:id="@+id/iSurvived"
+            style="@style/ResourcesButton"
+            android:text="@string/i_survived_now_what"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toTopOf="@id/coping"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/thisResource"
+            android:layout_marginTop="@dimen/textBoxMar"/>
+
+        <Button
+            android:id="@+id/coping"
+            style="@style/ResourcesButton"
+            android:text="@string/coping_and_connection"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toTopOf="@id/healing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iSurvived"
+            android:layout_marginTop="@dimen/textBoxMar"/>
+
+        <Button
+            android:id="@+id/healing"
+            style="@style/ResourcesButton"
+            android:text="@string/beginning_to_heal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toTopOf="@id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/coping"
+            android:layout_marginTop="@dimen/textBoxMar"/>
+
+
+        <TextView
+            android:id="@+id/resources"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:background="@drawable/teens_and_mental_health"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/resources"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/survivors_h"
+            android:layout_width="245dp"
+            android:layout_height="42dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/survivors_h"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            app:layout_constraintBottom_toTopOf="@id/survivors_h"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/resources"
+            android:layout_marginTop="@dimen/standard_elevation_card"
+            />
+
+        <TextView
+            android:id="@+id/tip_sheet_f"
+            android:layout_width="336dp"
+            android:layout_height="48dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/tip_sheet_f"
+            android:textAppearance="@style/tip_sheet_f"
+            app:layout_constraintBottom_toTopOf="@id/thisResource"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/survivors_h"
+            android:layout_marginTop="@dimen/standard_elevation_card"
+            />
+
+        <TextView
+            android:id="@+id/thisResource"
+            android:layout_width="351dp"
+            android:layout_height="192dp"
+            android:layout_marginTop="@dimen/standard_elevation_card"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/not_too_late"
+            android:textAppearance="@style/tip_sheet_f"
+            android:textColor="@color/secondaryDarkColor"
+            app:layout_constraintBottom_toTopOf="@id/iSurvived"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tip_sheet_f" />
+
+        <TextView
+            android:id="@+id/moreInfo"
+            android:layout_width="398dp"
+            android:layout_height="127dp"
+            android:layout_marginTop="@dimen/standard_elevation_card"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/more_info"
+            android:textAppearance="@style/tip_sheet_f"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo"
+            app:layout_constraintVertical_bias="0.827" />
+
+        <View
+            android:id="@+id/logo"
+            android:layout_width="323dp"
+            android:layout_height="50dp"
+            android:background="@drawable/aasts_logo"
+            app:layout_constraintBottom_toTopOf="@id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/healing"
+            android:layout_marginTop="@dimen/textBoxMar"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

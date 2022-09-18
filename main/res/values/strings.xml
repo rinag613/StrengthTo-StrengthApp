@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Strength To Strength</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="resources">Resources</string>
+    <string name="survivors_h">Survivors Help Survivors</string>
+    <string name="tip_sheet_f">TIP SHEET FOR THOSE IMPACTED BY TERRORISM: FOR VICTIMS BY VICTIMS\u000D</string>
+    <string name="i_survived_">I survived. Now What?</string>
+    <string name="coping_and_">Coping and Connection</string>
+    <string name="begin_to_he">Begin to Heal</string>
+    <string name="not_too_late">This resource sheet was created by Strength to Strength\'s Victims Advisory Council (VAC)* to share advice and support to those who have been impacted by terrorism. \n\nYou are not alone. Don’t do it alone, it is never too late to get help and it is never too late to connect. N.**</string>
+    <string name="more_info">*For more information on Strength to Strength’s Victims Advisory Council, please visit https://www.stosglobal.org/victims-advisory-council. \n\n**to protect the identity of our members, only the first initial is used.</string>
+    <string name="put_yoursel">1. Put yourself first, don\'t hide, you do not need to protect people from your pain.\n\n2. Injuries are physical and psychological in nature and they BOTH matter there is no hierarchy in suffering! Your survivor friends will help you slay the doubting demons and help you remember that your experience should not be compared to that of others.\n\n3. Peer Support. Victims and Survivors overwhelmingly endorse peer support because\n a.It helps with the loneliness of survival.\n b.Connections are lifesaving and life changing.\n c.It teaches us and offers an opportunity to tell our stories in a safe space.\n d.Being a part of something bigger than you is essential and healing.\n e.Having a chance to see how others have coped helps to guide the way.\n f.Gives you a chance to help others which helps to make meaning in your pain\n\n4. Empathy and true understanding will come from other survivors, surround yourself with people who understand trauma and the experience of being impacted by terrorism.\n\n5. Share, share, share, your story and your feelings\n\n6.Tell the story of the loved one you lost; it leaves him/her a little alive and gives people a chance to empathize with you.</string>
+    <string name="to_protect">**to protect the identity of our members, only the first initial is used.</string>
+    <string name="coping">1. Use organizations, groups, charities, community events, and other supports to find a safe space to explore your experience and receive support and a chance to find “your people.”\n\n2.Use your faith, turn to God to answer questions like why did I live?\n\n3.Yoga, meditation, scrap-booking, crafting running, singing, journaling, and advocacy work can all be therapeutic activities.\n\n4. Public speaking and peer mentoring can be healing, when you are ready to support others.\n\n5. Your families and friends will experience these situations differently than you – expect it.\n\n6. Tattoos, writing, and commemorations or anniversaries can take on significant meaning and help with expressing thought and feelings about your experience. Each one may be different for you and provide a different avenue of expression.\n\n7. Learn the symptoms of PTSD and get help if needed, it is never too late to get help and everyone has a unique timeline for healing. There is no timeline or right way.\n\n8. Therapy, go to therapy. Be open to EMDR and other treatment modalities, be willing to keep looking for what works for you. All trauma is not equal and all there is no one size fits all solution\n\n9. Take breaks. Engage with survivors and take a break when you need to, someone will always be there when you come back.\n\n10. Repeatedly talk about you experience to take the sting away, gather with those that shared your attack experience when you can.\n\n11. Memorializing and finding ways to remember those lost or those that were left can help us learn to carry grief lightly.</string>
+    <string name="begin">1. Be gentle with yourself.\n\n2.Have self-compassion.\n\n3.The journey to finding your voice and sharing your story can be complicated. Please remember, you are never alone.</string>
+    <string name="beginning_to_heal">Beginning to heal</string>
+    <string name="coping_and_connection">Coping and Connection</string>
+    <string name="i_survived_now_what">I survived. Now what?</string>
+    <string name="bringing">Bringing together victims of terrorism and their families around the world</string>
+    <string name="mission">Strength to Strength is a 501(c)3 nonprofit organization established to support victims of terrorism around the world with long-term psychological needs through peer to peer support, regular meetings, provision of information and advice, and raising awareness of the unmet needs of victims and their families. Strength to Strength enables victims of terrorism to share experiences and empowers them to live life to their best potential. We remain committed to each victim through our global network.</string>
+    <string name="our_resources">Our Resources</string>
+
+
+</resources>
